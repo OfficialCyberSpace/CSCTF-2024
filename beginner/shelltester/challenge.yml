@@ -1,0 +1,23 @@
+name: "shelltester"
+author: "0xM4hm0ud"
+category: beginner
+description: |-
+  Test your shellcode in my safe program!
+
+  `nc shelltester.challs.csc.tf 1337`
+
+  **Author**: 0xM4hm0ud
+value: 500
+type: dynamic
+tags:
+  - pwn
+extra:
+  initial: 500
+  decay: 100
+  minimum: 50
+flags:
+  - CSCTF{34sy_Sh3llcod3_w1th_pwnt00ls}
+files:
+  - handout_shelltester.zip
+state: visible
+version: "0.1"

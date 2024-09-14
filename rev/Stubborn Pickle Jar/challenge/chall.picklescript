@@ -1,0 +1,138 @@
+# common variables
+$epikfail = "https://www.youtube.com/watch?v=3GDr-eyhsSM"
+$getattr = {pickle.codecs.builtins.getattr}
+$print = {pickle.codecs.builtins.print}
+$int = {pickle.codecs.builtins.int}
+$self = ($getattr({pickle.codecs.builtins.locals}(), "__getitem__"))("self")
+$dispatch = $getattr($self, "dispatch")
+$partial = $getattr(($getattr({pickle.codecs.builtins.__import__}("builtins"), "__import__"))("functools"), "partial")
+$map = {pickle.codecs.builtins.map}
+$mod = $getattr($int, "__mod__")
+$mul = $partial($getattr($int, "__mul__"))
+$pow = $getattr($int, "__pow__")
+$reduce = $partial($getattr(($getattr({pickle.codecs.builtins.__import__}("builtins"), "__import__"))("functools"), "reduce"))
+
+# remapping attributes (part 1)
+($getattr($dispatch, "__setitem__"))(<FRAME>, ($getattr($dispatch, "__getitem__"))(<GLOBAL>))
+@remap("FRAME", "GLOBAL")
+@comment("no automated tooling allowed :)")
+($getattr($dispatch, "__setitem__"))(<BININT2>, ($getattr($dispatch, "__getitem__"))(<SHORT_BINUNICODE>))
+@remap("BININT2", "SHORT_BINUNICODE")
+
+# weird jumping stuff for no reason
+$dejavu = -1
+$bufferedreader_obj = $getattr($getattr($getattr($self, "_unframer"), "file_read"), "__self__")
+$jmp_options = [$partial($print, "guess the random number (0 to 4294967295)"), $int]
+$jmpdo = [$partial($getattr($bufferedreader_obj, "seek")), $int]
+$jmp_here = ($getattr($bufferedreader_obj, "tell"))()
+$dejavu = ($getattr($dejavu, "__add__"))(1)
+(($getattr($jmp_options, "__getitem__"))($dejavu))()
+(($getattr($jmpdo, "__getitem__"))($dejavu))($jmp_here)
+
+# prank'd
+@comment({os.system})
+@comment("clear && toilet try harder && sleep 2")
+$inspect = {pickle.codecs.builtins.__import__}("inspect")
+{pickle.codecs.builtins.list}($map($partial({pickle.codecs.builtins.delattr}, $inspect), {pickle.codecs.builtins.dir}($inspect)))
+
+# get input from user
+$seed = $int({pickle.codecs.builtins.input}(">> "))
+
+# make sure they say 4 (part 1)
+$results = [3, 2, 4, 5, 0, 1]
+$clamped_seed = ($getattr($results, "__getitem__"))({pickle.codecs.builtins.max}({pickle.codecs.builtins.min}($seed, 5), 0))
+$result_funcs = {pickle.codecs.builtins.list}()
+@appends($result_funcs, {pickle.codecs.builtins.any}, {pickle.codecs.builtins.print}, {pickle.codecs.builtins.set}, {pickle.codecs.builtins.exit})
+
+# set up the keys (part 1)
+$keys_one = {pickle.codecs.builtins.list}({pickle.codecs.builtins.range}(73))
+{random.seed}($seed)
+{random.shuffle}($keys_one)
+
+# make sure they say 4 (part 2)
+(($getattr($result_funcs, "__getitem__"))({pickle.codecs.builtins.min}(1, $clamped_seed)))($epikfail)
+(($getattr($result_funcs, "__getitem__"))(($getattr({pickle.codecs.builtins.int}, "__add__"))({pickle.codecs.builtins.min}(1, $clamped_seed), 2)))()
+@comment("https://xkcd.com/221/")
+
+# remapping attributes (part 2)
+($getattr($dispatch, "__setitem__"))(<PROTO>, ($getattr($dispatch, "__getitem__"))(<FRAME>))
+@remap("PROTO", "GLOBAL")
+($getattr($dispatch, "__setitem__"))(<FRAME>, ($getattr($dispatch, "__getitem__"))(<SHORT_BINUNICODE>))
+@remap("FRAME", "SHORT_BINUNICODE")
+
+# setup return values
+$ciphertext = '00000000002dea125865fe50fed7f2292655082c238262d88562e8f75f1cf8505c32ec9b9cfa69c37112ad238a3cab8e2763d52b3692ae651863b00e8706ab344598da8ad3'
+$success_list = [215, 113, 113, 218, 38, 226, 175, 175, 54, 54, 54, 95, 17, 44, 134, 113, 134, 139, 28, 95, 135, 44, 224]
+($getattr($success_list, "extend"))([175, 54, 53, 113, 135, 215])
+($getattr($success_list, "extend"))([102, 159, 59, 165, 15, 151, 184, 184, 218, 46, 63, 201, 205, 127])
+$neg_ones = ($getattr([-1], "__mul__"))({pickle.codecs.builtins.len}($success_list))
+$257s = ($getattr([257], "__mul__"))({pickle.codecs.builtins.len}($success_list))
+
+# remapping attributes (part 3)
+$put_gotten = ($getattr($dispatch, "__getitem__"))(<PUT>)
+$memosetitem1 = $getattr($dispatch, "__setitem__")
+$memosetitem1(<BININT2>, ($getattr($dispatch, "__getitem__"))(<POP>))
+@remap("BININT2", "POP")
+$memosetitem1(<READONLY_BUFFER>, $put_gotten)
+@remap("READONLY_BUFFER", "PUT")
+
+# get flag from user
+$print("now guess the flag")
+$input = {pickle.codecs.builtins.input}(">> ")
+$input_len = ($getattr($input, "__len__"))()
+
+# set up the keys (part 2)
+$keys_two = {pickle.codecs.builtins.list}(($getattr($keys_one, "__reversed__"))())
+{pickle.codecs.builtins.list}($map($partial($getattr($keys_two, "pop")), ($getattr([0], "__mul__"))(($getattr(73, "__sub__"))($input_len))))
+
+# remapping attributes (part 4)
+$memosetitem2 = $partial($memosetitem1)
+$memosetitem2(<NEXT_BUFFER>, ($getattr($dispatch, "__getitem__"))(<GET>))
+@remap("NEXT_BUFFER", "GET")
+
+# check the flag's length is between 42 and 69 inclusive
+$success_list2 = [{pickle.codecs.builtins.set}, {pickle.codecs.builtins.exit}, $partial({pickle.codecs.builtins.print}, $epikfail)]
+$is_success3 = ($getattr(1, "__sub__"))($int({pickle.codecs.builtins.all}([($getattr(42, "__le__"))($input_len), ($getattr(69, "__ge__"))($input_len)])))
+(($getattr($success_list2, "__getitem__"))($mul($is_success3, 2)))()
+(($getattr($success_list2, "__getitem__"))($is_success3))()
+
+# set a new seed based off of the flag
+{random.seed}($mod($reduce($getattr($int, "__add__"), {pickle.codecs.builtins.list}({pickle.codecs.builtins.map}({pickle.codecs.builtins.ord}, $input))), $pow(2, 9)))
+$hope = {random.randint}(0, 10000)
+
+# verify the seed is correct
+$add = $partial($partial($partial($getattr($int, "__add__"))))
+$is_success2 = ($getattr(1, "__sub__"))($int(($getattr($hope, "__eq__"))($reduce($mul, [2, 13, 61, 5]))))
+(($getattr($success_list2, "__getitem__"))($mul($is_success2, 2)))()
+(($getattr($success_list2, "__getitem__"))($is_success2))()
+
+# actually check the flag
+$list = {pickle.codecs.builtins.list}
+$ord = {pickle.codecs.builtins.ord}
+$str.count = $getattr({pickle.codecs.builtins.str}, "count")
+$enc1 = $list($map($pow, $map($ord, $input), ($getattr([-1], "__mul__"))(69), ($getattr([257], "__mul__"))(69)))
+$enc2 = $list($map($getattr($int, "__xor__"), $keys_two, $enc1))
+$bitcounts = $list($map($str.count, $map({pickle.codecs.builtins.bin}, $keys_two), ($getattr("1", "__mul__"))(69)))
+$bitlengths = $list($map($getattr($int, "bit_length"), $keys_two))
+$bitmixed = $list($map($getattr($int, "__rmod__"), ($getattr([256], "__mul__"))(69), $map($getattr($int, "__lshift__"), $bitcounts, $bitlengths)))
+$bitmixed2 = $list($map($getattr($int, "__add__"), $map($getattr($int, "__add__"), $bitmixed, $bitlengths), $bitcounts))
+$useless = $list($map($str.count, $input, ($getattr("_", "__mul__"))(69)))
+$enc3 = $list($map($getattr($int, "__xor__"), $enc2, $bitmixed2))
+$powers = $list($map($partial($pow, 256), {pickle.codecs.builtins.range}($input_len)))
+$enc4 = $reduce($getattr($int, "__or__"), $map($getattr($int, "__mul__"), $powers, $enc3))
+$enc5 = ($getattr($enc4, "to_bytes"))(69, "big")
+$is_success4 = ($getattr(1, "__sub__"))(($getattr($enc5, "__eq__"))($ciphertext))
+(($getattr($success_list2, "__getitem__"))($mul($is_success4, 2)))()
+(($getattr($success_list2, "__getitem__"))($is_success4))()
+
+# final remarks and tomfooleries
+$next = {pickle.codecs.builtins.next}
+$success_msg = ($getattr("", "join"))({pickle.codecs.builtins.list}($map({pickle.codecs.builtins.chr}, $map($pow, $success_list, $neg_ones, $257s))))
+$pickle = {pickle.codecs.builtins.__import__}("builtins")
+$pd = {pickle.codecs.builtins.dir}($pickle)
+$nomoarpickle = $map($partial({pickle.codecs.builtins.delattr}, $pickle), $pd)
+{pickle.codecs.builtins.setattr}({pickle._Stop}, ".", $partial($next, $map({pickle.codecs.builtins.list}, [$map($partial($next, $nomoarpickle), $pd)])))
+{pickle.codecs.builtins.setattr}({pickle._Stop}, "__getattribute__", $getattr({pickle._Stop}, "."))
+$print($success_msg)
+@return({pickle.codecs.builtins.bool}(1))
+@setattr($self, "memo", None)

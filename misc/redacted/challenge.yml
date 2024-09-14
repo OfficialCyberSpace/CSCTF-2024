@@ -1,0 +1,21 @@
+name: "REDACTED"
+author: "quasar098"
+category: misc
+description: |-
+  Please find the flag in the "About Me" of the Discord user who took the screenshot!
+
+  **Author**: quasar098
+value: 500
+type: dynamic
+tags:
+  - osint
+extra:
+  initial: 500
+  decay: 100
+  minimum: 50
+flags:
+  - CSCTF{but_that_tower_is_not_tall..._4d3bf0a8}
+files:
+  - REDACTED.png
+state: visible
+version: "0.1"

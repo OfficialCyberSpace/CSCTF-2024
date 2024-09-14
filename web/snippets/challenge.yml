@@ -1,0 +1,21 @@
+name: "Snippets"
+author: "bawolff"
+category: web
+description: |-
+  Try our new snippet server! Send snippets to your friends that are helpfully obfuscated against spies grepping for keywords.
+
+  https://snippets-web-challs.csc.tf
+
+  **Author**: bawolff
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 100
+  minimum: 50
+flags:
+  - CSCTF{Foiled_by_backwards_compatibility}
+files:
+  - handout_snippets.zip
+state: visible
+version: "0.1"

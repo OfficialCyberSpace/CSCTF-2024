@@ -1,0 +1,19 @@
+{
+  "name": "snippet",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Bawolff",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "dompurify": "^3.1.6",
+    "es6-dynamic-template": "^2.0.0",
+    "express": "^4.19.2",
+    "jsdom": "^25.0.0",
+    "puppeteer": "^23.1.0"
+  }
+}

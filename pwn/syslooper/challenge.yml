@@ -1,0 +1,24 @@
+name: "syslooper"
+author: "0xM4hm0ud"
+category: pwn
+description: |-
+  Challenge your skills in syslooper. No libs, just loops to conquer. Can you uncover the flag's mystery and emerge victorious?
+
+  > Note: The flag format of this challenge is /^CSCTF{a-z0-9}$/, so only lowercase chars and numbers. Please solve it locally first before you try it on remote!
+
+  `nc 209.126.9.222 5000`
+
+  **Author**: 0xM4hm0ud
+value: 500
+type: dynamic
+attempts: 5
+extra:
+  initial: 500
+  decay: 100
+  minimum: 50
+flags:
+  - CSCTF{s33r}
+files:
+  - handout_syslooper.zip
+state: visible
+version: "0.1"

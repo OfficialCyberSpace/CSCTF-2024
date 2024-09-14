@@ -1,0 +1,21 @@
+name: "Twig Playground"
+author: "0xM4hm0ud"
+category: web
+description: |-
+  Check out my free online Twig playground!
+
+  https://twig-playground-web.challs.csc.tf
+
+  **Author**: 0xM4hm0ud
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 100
+  minimum: 50
+flags:
+  - CSCTF{Tw1g_tw1g_ssT1_n0_h4cKtr1ck5_th1S_t1M3}
+files:
+  - handout_twig-playground.zip
+state: visible
+version: "0.1"

@@ -1,0 +1,23 @@
+name: "ticket-bot"
+author: "Bex"
+category: beginner
+description: |-
+  Welcome to TicketBot v1.0. Open a ticket and we will help you asap!
+
+  `nc ticket-bot.challs.csc.tf 1337`
+
+  **Author**: Bex
+value: 500
+type: dynamic
+tags:
+  - pwn
+extra:
+  initial: 500
+  decay: 100
+  minimum: 50
+flags:
+  - CSCTF{r4nd_funk7i0n_i5_n0t_s0_r4nd0m3_a5_y0u_th0ugh7}
+files:
+  - handout_ticketbotv1.zip
+state: visible
+version: "0.1"

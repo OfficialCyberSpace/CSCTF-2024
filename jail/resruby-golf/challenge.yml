@@ -1,0 +1,21 @@
+name: "resruby golf"
+author: "oh_word"
+category: jail
+description: |-
+  "Let's go golfing!" -DJ Khaled
+
+  `nc resruby-golf.challs.csc.tf 1337`
+
+  **Author**: oh_word
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 100
+  minimum: 50
+flags:
+  - CSCTF{ARGF_is_pretty_funny_16affc123c161ad3ab7645d7}
+files:
+  - challenge/chall.rb
+state: visible
+version: "0.1"

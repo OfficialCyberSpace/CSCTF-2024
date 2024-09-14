@@ -1,0 +1,20 @@
+name: "vmvm"
+author: "oh_word"
+category: rev
+description: |-
+  Is it really a CTF if there's not a terrible vm challenge?
+
+  **Author**: oh_word
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 100
+  minimum: 50
+flags:
+  - CSCTF{i_would_make_gross_hidden_crypto_but_idk_crypto_f5f04dd12}
+files:
+  - challenge/vmvm
+  - challenge/vmvm.vm
+state: visible
+version: "0.1"

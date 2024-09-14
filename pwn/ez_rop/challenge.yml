@@ -1,0 +1,21 @@
+name: "ez-rop"
+author: "wan"
+category: pwn
+description: |-
+  just an easy rop
+
+  `nc ez-rop.challs.csc.tf 1337`
+
+  **Author**: wan
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 100
+  minimum: 50
+flags:
+  - CSCTF{ez_rop_bc6680c1a0d13d778d73c59185b1e412}
+files:
+  - handout_ez-rop.zip
+state: visible
+version: "0.1"

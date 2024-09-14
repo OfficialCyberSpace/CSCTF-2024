@@ -1,0 +1,25 @@
+@keyframes countdown {
+    from {
+        color: #ff5722;
+    }
+    to {
+        color: #4caf50;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.content {
+    animation: fadeIn 1s ease-in-out;
+}
+
+#countdown {
+    animation: countdown 2s ease-in-out infinite alternate;
+}

@@ -1,0 +1,19 @@
+name: "Pretty Malicious Log"
+author: "Otol Khan"
+category: forensics
+description: |-
+  I was trying to install the adobe crack and many weird things happened to my PC. Can you analyze the log and figure out what's going on?
+
+  https://drive.google.com/file/d/1ucky78xmJZBxoEYQJq9y6ayRfNWvilBk/view?usp=sharing
+
+  **Author**: Otol Khan
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 100
+  minimum: 50
+flags:
+  - CSCTF{Pr0cm0n_1s_4_h3lpFul_sy5int3rn4l!_0x22defba1}
+state: visible
+version: "0.1"

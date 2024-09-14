@@ -1,0 +1,20 @@
+name: "Two Many Hints"
+author: "ndr"
+category: crypto
+description: |-
+  ctfguy warned me to be careful, but I was not...
+
+  **Author**: ndr
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 100
+  minimum: 50
+flags:
+  - CSCTF{wh4t_1f_my_h1nt_i5_4lgbr4!c????0x54763498142}
+files:
+  - challenge/chall.sage
+  - challenge/output.txt
+state: visible
+version: "0.1"

@@ -1,0 +1,19 @@
+name: "trendy windy trigonity"
+author: "ndr"
+category: crypto
+description: |-
+  have you seen Tan challenge before? see maple version pi documentation!
+
+  **Author**: ndr
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 100
+  minimum: 50
+flags:
+  - CSCTF{Trigo_453_Tr3ndy_FuN_Th35e_D4Y5}
+files:
+  - challenge/chall.sage
+state: visible
+version: "0.1"

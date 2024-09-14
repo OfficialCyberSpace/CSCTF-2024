@@ -1,0 +1,19 @@
+name: "sole"
+author: "0xM4hm0ud"
+category: rev
+description: |-
+  Math professors struggled with this System of linear equations for years, can you solve it?
+
+  **Author**: 0xM4hm0ud
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 100
+  minimum: 50
+flags:
+  - CSCTF{ruSt_15_c00l_r1gHt?}
+files:
+  - chal
+state: visible
+version: "0.1"

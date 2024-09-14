@@ -1,0 +1,48 @@
+{{ define "userDash.tmpl" }}
+{{ template "top" . }}
+<link rel="stylesheet" href="/static/css/user.css">
+
+<div class="container">
+    <h1>Welcome to the User Dashboard - You are {{ .role }} {{ .username }}</h1>
+    <h2>Create a Post</h2>
+    <form hx-post="/user/posts/create" hx-ext="json-enc">
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title">
+        <label for="data">Data:</label>
+        <textarea id="data" name="data"></textarea>
+        <input type="submit" value="Submit">
+    </form>
+    <h2>My Posts</h2>
+    <div hx-ext="client-side-templates">
+        <ul>
+            {{ range .posts }}
+                <li>
+                    <div class="posts" hx-get="/user/posts/{{ .PostID }}" hx-swap="innerHTML" hx-target="#content" nunjucks-template="foo">
+                        {{ .Title }}
+                    </div>
+                </li>
+            {{ end }}
+        </ul>
+        <div id="content"></div>
+       <template id="foo">
+          <div id="modal">
+              <div class="modal-underlay"></div>
+              <div class="modal-content">
+                  <div id="title">{{.title}}</div>
+                  <div id="post-data">{{.data}}</div>
+                  <button class="btn danger" hx-on:click="this.closest('#modal').remove()">Close</button>
+              </div>
+          </div>
+          <script>
+              const data = document.getElementById('post-data').innerHTML;
+          </script>
+      </template>
+    </div>
+</div>
+
+ {{ template "scripts" . }}
+  <script src="/static/js/nunjucks.min.js" ></script>
+
+{{ template "bottom" . }}
+
+{{ end }}

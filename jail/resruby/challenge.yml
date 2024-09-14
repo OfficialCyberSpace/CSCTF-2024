@@ -1,0 +1,21 @@
+name: "resruby"
+author: "oh_word"
+category: jail
+description: |-
+  when people say they like ruby for its simplicity, this is what they mean, right?
+
+  `nc resruby.challs.csc.tf 1337`
+
+  **Author**: oh_word
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 100
+  minimum: 50
+flags:
+  - CSCTF{what_was_harder?_leaking_flag_or_getting_strings}
+files:
+  - challenge/chall.rb
+state: visible
+version: "0.1"

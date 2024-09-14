@@ -1,0 +1,43 @@
+{% extends "base.html" %} {% block title %}Groundbreaking Feature Release{% endblock %} {% block
+content %}
+<h1>Groundbreaking Feature Release</h1>
+<p>
+    Our team of experts has developed the most advanced feature ever. Stay tuned for the big reveal!
+</p>
+{% if feature_unlocked %}
+<p>Congratulations! The new feature is now available.</p>
+<a id="featureButton" href="/feature">Go to New Feature</a>
+{% else %}
+<p>Sorry, the feature is not yet available. The countdown has begun!</p>
+<p>Time remaining:</p>
+<div id="countdown"></div>
+<a id="featureButton" href="/feature" style="display: none">Go to New Feature</a>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        function startCountdown(releaseTimestamp) {
+            var countdownElement = document.getElementById("countdown");
+            var featureButton = document.getElementById("featureButton");
+            var x = setInterval(function () {
+                var now = Math.floor(Date.now() / 1000);
+                var distance = releaseTimestamp - now;
+
+                if (distance < 0) {
+                    clearInterval(x);
+                    countdownElement.innerHTML = "The new feature is now available!";
+                    featureButton.style.display = "inline-block";
+                } else {
+                    var days = Math.floor(distance / (24 * 60 * 60));
+                    var hours = Math.floor((distance % (24 * 60 * 60)) / (60 * 60));
+                    var minutes = Math.floor((distance % (60 * 60)) / 60);
+                    var seconds = Math.floor(distance % 60);
+
+                    countdownElement.innerHTML =
+                        days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+                }
+            }, 1000);
+        }
+
+        startCountdown({{ release_timestamp }});
+    });
+</script>
+{% endif %} {% endblock %}

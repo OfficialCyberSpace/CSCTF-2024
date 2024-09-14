@@ -1,0 +1,409 @@
+{"George Washington" : [
+    {
+        "question": "What year was George Washington born?",
+        "answers": ["1755", "1750", "1730", "1725", "1760"]
+    },
+    {
+        "question": "Which battle did George Washington win in 1776?",
+        "answers": ["Battle of Yorktown", "Battle of Saratoga", "Battle of Bunker Hill", "Battle of Lexington", "Battle of Camden"]
+    },
+    {
+        "question": "What was George Washington's role in the American Revolutionary War?",
+        "answers": ["Vice President", "Secretary of State", "Treasurer", "Senator", "Governor"]
+    },
+    {
+        "question": "Which estate did George Washington live in?",
+        "answers": ["Monticello", "The Hermitage", "Montpelier", "Ash Lawn-Highland", "Tudor Place"]
+    },
+    {
+        "question": "Who was George Washington's wife?",
+        "answers": ["Abigail Adams", "Dolly Madison", "Mary Todd Lincoln", "Sarah Jay", "Lucy Webb Hayes"]
+    },
+    {
+        "question": "What river did George Washington famously cross in 1776?",
+        "answers": ["Mississippi River", "Ohio River", "Missouri River", "Hudson River", "Potomac River"]
+    },
+    {
+        "question": "Where did George Washington die?",
+        "answers": ["New York", "Philadelphia", "Boston", "Charleston", "Savannah"]
+    },
+    {
+        "question": "What was George Washington's primary occupation before becoming President?",
+        "answers": ["Lawyer", "Doctor", "Merchant", "Blacksmith", "Teacher"]
+    },
+    {
+        "question": "What year did George Washington become President?",
+        "answers": ["1785", "1786", "1795", "1796", "1800"]
+    },
+    {
+        "question": "Which document did George Washington sign?",
+        "answers": ["The Emancipation Proclamation", "The Louisiana Purchase", "The Missouri Compromise", "The Treaty of Paris", "The Gettysburg Address"]
+    },
+    {
+        "question": "What was the name of George Washington's famous horse?",
+        "answers": ["Old Whitey", "Traveller", "Silver", "Bucephalus", "Comanche"]
+    },
+    {
+        "question": "Which of the following was NOT one of George Washington's accomplishments?",
+        "answers": ["First to sign the Declaration of Independence", "Author of the Federalist Papers", "Proponent of the Erie Canal", "Commander of the Navy", "Architect of the Constitution"]
+    },
+    {
+        "question": "What number president was George Washington?",
+        "answers": ["2nd", "3rd", "4th", "5th", "6th"]
+    },
+    {
+        "question": "In which state was George Washington born?",
+        "answers": ["Pennsylvania", "Massachusetts", "New York", "North Carolina", "Georgia"]
+    },
+    {
+        "question": "Which country did George Washington negotiate with for the Louisiana Purchase?",
+        "answers": ["Spain", "England", "Portugal", "Germany", "Russia"]
+    },
+    {
+        "question": "What was George Washington's middle name?",
+        "answers": ["Henry", "Thomas", "Alexander", "James", "Robert"]
+    },
+    {
+        "question": "How many terms did George Washington serve as President?",
+        "answers": ["One", "Three", "Four", "Five", "Six"]
+    },
+    {
+        "question": "Which of the following was NOT one of George Washington's pets?",
+        "answers": ["Parrot", "Turtle", "Cat", "Snake", "Monkey"]
+    },
+    {
+        "question": "What was the main crop grown on George Washington's plantation?",
+        "answers": ["Rice", "Corn", "Potatoes", "Sugarcane", "Soybeans"]
+    },
+    {
+        "question": "What was the name of George Washington's famous speech?",
+        "answers": ["Gettysburg Address", "Four Freedoms Speech", "I Have a Dream", "Cross of Gold", "The Farewell Address"]
+    },
+    {
+        "question": "Where did George Washington attend college?",
+        "answers": ["Harvard", "Yale", "Princeton", "Oxford", "Cambridge"]
+    },
+    {
+        "question": "What was George Washington's favorite hobby?",
+        "answers": ["Painting", "Poetry", "Dancing", "Knitting", "Sculpting"]
+    },
+    {
+        "question": "Which war did George Washington fight in before the American Revolution?",
+        "answers": ["The War of 1812", "The Civil War", "The Spanish-American War", "The Mexican-American War", "World War I"]
+    },
+    {
+        "question": "Who succeeded George Washington as President?",
+        "answers": ["Thomas Jefferson", "James Madison", "James Monroe", "John Quincy Adams", "Andrew Jackson"]
+    },
+    {
+        "question": "Which foreign policy principle is associated with George Washington?",
+        "answers": ["The Monroe Doctrine", "Manifest Destiny", "The Truman Doctrine", "The Nixon Doctrine", "Containment"]
+    }
+],
+"Isaac Newton": [
+    {
+        "question": "In which year was Isaac Newton born?",
+        "answers": ["1642", "1635", "1650", "1660", "1670"]
+    },
+    {
+        "question": "Which famous book did Isaac Newton write?",
+        "answers": ["The Origin of Species", "The Principles of Philosophy", "The Divine Comedy", "The Republic", "The Prince"]
+    },
+    {
+        "question": "What force did Isaac Newton famously describe?",
+        "answers": ["Magnetism", "Nuclear Force", "Electromagnetic Force", "Strong Force", "Weak Force"]
+    },
+    {
+        "question": "Where was Isaac Newton born?",
+        "answers": ["London", "Paris", "Berlin", "Rome", "Madrid"]
+    },
+    {
+        "question": "Which university did Isaac Newton attend?",
+        "answers": ["Harvard", "Yale", "Stanford", "MIT", "Princeton"]
+    },
+    {
+        "question": "Which scientific tool did Isaac Newton invent?",
+        "answers": ["Barometer", "Thermometer", "Pendulum Clock", "Microscope", "Spectroscope"]
+    },
+    {
+        "question": "What is Isaac Newton famous for discovering?",
+        "answers": ["Electrons", "Protons", "Neutrons", "Photons", "Quarks"]
+    },
+    {
+        "question": "In which field did Isaac Newton NOT make contributions?",
+        "answers": ["Biology", "Chemistry", "Geology", "Meteorology", "Oceanography"]
+    },
+    {
+        "question": "What was Isaac Newton's role at the Royal Mint?",
+        "answers": ["Treasurer", "Auditor", "Banker", "Clerk", "Accountant"]
+    },
+    {
+        "question": "Which of these laws is associated with Isaac Newton?",
+        "answers": ["Ohm's Law", "Boyle's Law", "Avogadro's Law", "Hooke's Law", "Charles's Law"]
+    },
+    {
+        "question": "Which mathematical field did Isaac Newton help develop?",
+        "answers": ["Geometry", "Trigonometry", "Statistics", "Topology", "Algebra"]
+    },
+    {
+        "question": "Which other famous scientist was born in the same year as Isaac Newton?",
+        "answers": ["Albert Einstein", "Niels Bohr", "Michael Faraday", "James Clerk Maxwell", "Nikola Tesla"]
+    },
+    {
+        "question": "Which of these is NOT a law of motion by Isaac Newton?",
+        "answers": ["Law of Conservation of Energy", "Law of Inertia", "Law of Acceleration", "Law of Action and Reaction", "Law of Universal Gravitation"]
+    },
+    {
+        "question": "What position did Isaac Newton hold at the University of Cambridge?",
+        "answers": ["Dean", "Chancellor", "President", "Registrar", "Provost"]
+    },
+    {
+        "question": "Which apple variety did Isaac Newton study?",
+        "answers": ["Granny Smith", "Fuji", "Gala", "Honeycrisp", "Braeburn"]
+    },
+    {
+        "question": "Which of these is a published work of Isaac Newton?",
+        "answers": ["Philosophiae Naturalis Principia Mathematica", "Opticks", "De Revolutionibus Orbium Coelestium", "Dialogue Concerning the Two Chief World Systems", "The Sceptical Chymist"]
+    },
+    {
+        "question": "What did Isaac Newton believe about light?",
+        "answers": ["It was a wave", "It was a sound", "It was heat", "It was a liquid", "It was a solid"]
+    },
+    {
+        "question": "What was one of Isaac Newton's hobbies?",
+        "answers": ["Fishing", "Hunting", "Sailing", "Gardening", "Cooking"]
+    },
+    {
+        "question": "Which award did Isaac Newton receive?",
+        "answers": ["Nobel Prize", "Pulitzer Prize", "Fields Medal", "Turing Award", "Oscars"]
+    },
+    {
+        "question": "Which king knighted Isaac Newton?",
+        "answers": ["King George I", "King Charles II", "King Henry VIII", "King Edward VII", "King James II"]
+    },
+    {
+        "question": "Which concept did Isaac Newton NOT study?",
+        "answers": ["Relativity", "Gravity", "Calculus", "Optics", "Motion"]
+    },
+    {
+        "question": "Where did Isaac Newton serve as a Member of Parliament?",
+        "answers": ["London", "Edinburgh", "Cardiff", "Belfast", "Dublin"]
+    },
+    {
+        "question": "Which of the following is NOT true about Isaac Newton?",
+        "answers": ["He was a professor", "He was a scientist", "He was a mathematician", "He was a poet", "He was an astronomer"]
+    },
+    {
+        "question": "What was Isaac Newton's nationality?",
+        "answers": ["French", "German", "Italian", "Spanish", "Dutch"]
+    },
+    {
+        "question": "In which year did Isaac Newton die?",
+        "answers": ["1730", "1710", "1700", "1690", "1680"]
+    }
+],
+"CTF": [
+    {
+        "question": "In which year was the first Capture the Flag (CTF) hacking competition held?",
+        "answers": ["1995", "2000", "2005", "2010", "2015"]
+    },
+    {
+        "question": "Who organized the first CTF hacking competition?",
+        "answers": ["Google", "Microsoft", "Apple", "Facebook", "Amazon"]
+    },
+    {
+        "question": "What is a common format for CTF hacking competitions?",
+        "answers": ["Battle Royale", "Round Robin", "Single Elimination", "Swiss System", "League"]
+    },
+    {
+        "question": "Which major cybersecurity conference features a prominent CTF competition?",
+        "answers": ["CES", "RSA Conference", "Gartner Symposium", "AWS re:Invent", "VMworld"]
+    },
+    {
+        "question": "What is the primary objective in a CTF hacking competition?",
+        "answers": ["Decode a cipher", "Find a bug", "Write a virus", "Steal data", "Create a firewall"]
+    },
+    {
+        "question": "Which organization is known for its annual CTF hacking competition?",
+        "answers": ["Black Hat", "DEF CON", "CanSecWest", "ShmooCon", "DerbyCon"]
+    },
+    {
+        "question": "In which year did DEF CON first host a CTF hacking competition?",
+        "answers": ["1997", "2002", "2007", "2012", "2017"]
+    },
+    {
+        "question": "What is the term for a team participating in a CTF hacking competition?",
+        "answers": ["Crew", "Squad", "Battalion", "Unit", "Force"]
+    },
+    {
+        "question": "What is the typical duration of a CTF hacking competition?",
+        "answers": ["1 hour", "6 hours", "12 hours", "24 hours", "48 hours"]
+    },
+    {
+        "question": "Which skill is NOT typically tested in a CTF hacking competition?",
+        "answers": ["Cryptography", "Reverse Engineering", "Network Forensics", "Physical Security", "Web Exploitation"]
+    },
+    {
+        "question": "What is a 'Jeopardy-style' CTF?",
+        "answers": ["Single challenge", "Head-to-head", "Attack-defense", "Puzzle-solving", "Capture-the-flag"]
+    },
+    {
+        "question": "Which outdoor game inspired the term 'Capture the Flag' for hacking competitions?",
+        "answers": ["Hide and Seek", "Tag", "Kickball", "Dodgeball", "Relay Race"]
+    },
+    {
+        "question": "What is the primary objective in a traditional outdoor game of Capture the Flag?",
+        "answers": ["Tag all opponents", "Reach a finish line", "Capture the opponents' base", "Steal the flag", "Score the most points"]
+    },
+    {
+        "question": "In which country did the outdoor game Capture the Flag originate?",
+        "answers": ["Canada", "Australia", "Germany", "Japan", "China"]
+    },
+    {
+        "question": "Which of these is NOT a common rule in the outdoor game Capture the Flag?",
+        "answers": ["No running", "No physical contact", "Boundary limits", "Jail for captured players", "No hiding the flag"]
+    },
+    {
+        "question": "Which organization frequently includes Capture the Flag in its youth activities?",
+        "answers": ["Boy Scouts", "YMCA", "4-H Club", "Girl Scouts", "Junior ROTC"]
+    },
+    {
+        "question": "What is a typical size for a Capture the Flag outdoor game area?",
+        "answers": ["10x10 feet", "50x50 feet", "100x100 feet", "200x200 feet", "500x500 feet"]
+    },
+    {
+        "question": "What is the main role of 'guards' in the outdoor game Capture the Flag?",
+        "answers": ["Tagging opponents", "Scouting", "Scoring points", "Holding the flag", "Hiding the flag"]
+    },
+    {
+        "question": "Which of these is a variant of the outdoor game Capture the Flag?",
+        "answers": ["Flag Football", "King of the Hill", "Red Rover", "Capture the Base", "Capture the Banner"]
+    },
+    {
+        "question": "What is typically used as a flag in the outdoor game Capture the Flag?",
+        "answers": ["A cone", "A ball", "A stick", "A hat", "A bandana"]
+    },
+    {
+        "question": "Which event often includes Capture the Flag as a team-building activity?",
+        "answers": ["Corporate retreats", "Weddings", "Birthdays", "Anniversaries", "Graduations"]
+    },
+    {
+        "question": "Which skill is NOT typically required for the outdoor game Capture the Flag?",
+        "answers": ["Speed", "Agility", "Strategy", "Endurance", "Flexibility"]
+    },
+    {
+        "question": "What happens when a player is tagged in the outdoor game Capture the Flag?",
+        "answers": ["They are out", "They switch teams", "They hide", "They go to jail", "They become a guard"]
+    },
+    {
+        "question": "Which age group is the outdoor game Capture the Flag most popular with?",
+        "answers": ["Toddlers", "Preschoolers", "Teenagers", "Seniors", "Infants"]
+    },
+    {
+        "question": "In the outdoor game Capture the Flag, what is the 'jail' used for?",
+        "answers": ["Storing equipment", "Keeping the flag", "Holding tagged players", "Rest area", "Scoring points"]
+    }
+],
+"Random": [
+    {
+        "question": "What is the capital of France?",
+        "answers": ["Berlin", "Madrid", "Rome", "Vienna", "Brussels"]
+    },
+    {
+        "question": "Which element has the chemical symbol 'O'?",
+        "answers": ["Hydrogen", "Nitrogen", "Carbon", "Helium", "Chlorine"]
+    },
+    {
+        "question": "What is the largest planet in our solar system?",
+        "answers": ["Earth", "Venus", "Mars", "Mercury", "Pluto"]
+    },
+    {
+        "question": "Who wrote 'Hamlet'?",
+        "answers": ["Charles Dickens", "Mark Twain", "Ernest Hemingway", "Jane Austen", "J.K. Rowling"]
+    },
+    {
+        "question": "What is the square root of 64?",
+        "answers": ["6", "7", "9", "10", "12"]
+    },
+    {
+        "question": "What is the capital of Japan?",
+        "answers": ["Seoul", "Beijing", "Bangkok", "Manila", "Jakarta"]
+    },
+    {
+        "question": "Which gas do plants absorb from the atmosphere?",
+        "answers": ["Oxygen", "Hydrogen", "Nitrogen", "Helium", "Methane"]
+    },
+    {
+        "question": "What is the tallest mountain in the world?",
+        "answers": ["K2", "Mount Kilimanjaro", "Mount McKinley", "Mount Elbrus", "Mount Vinson"]
+    },
+    {
+        "question": "Who painted the Mona Lisa?",
+        "answers": ["Vincent van Gogh", "Pablo Picasso", "Claude Monet", "Henri Matisse", "Salvador Dali"]
+    },
+    {
+        "question": "What is the freezing point of water in Celsius?",
+        "answers": ["10°C", "20°C", "30°C", "40°C", "50°C"]
+    },
+    {
+        "question": "Which planet is known as the Red Planet?",
+        "answers": ["Venus", "Jupiter", "Saturn", "Uranus", "Neptune"]
+    },
+    {
+        "question": "Who is known as the Father of Computers?",
+        "answers": ["Thomas Edison", "Nikola Tesla", "Alexander Graham Bell", "Isaac Newton", "Leonardo da Vinci"]
+    },
+    {
+        "question": "What is the largest ocean on Earth?",
+        "answers": ["Atlantic Ocean", "Indian Ocean", "Southern Ocean", "Arctic Ocean", "Mediterranean Sea"]
+    },
+    {
+        "question": "Who discovered penicillin?",
+        "answers": ["Marie Curie", "Louis Pasteur", "Gregor Mendel", "James Watson", "Rosalind Franklin"]
+    },
+    {
+        "question": "Which country is known as the Land of the Rising Sun?",
+        "answers": ["China", "South Korea", "Thailand", "Philippines", "India"]
+    },
+    {
+        "question": "What is the chemical formula for water?",
+        "answers": ["CO2", "H2", "O2", "HCl", "NaCl"]
+    },
+    {
+        "question": "Who wrote 'Pride and Prejudice'?",
+        "answers": ["Charlotte Bronte", "Emily Dickinson", "George Eliot", "Mary Shelley", "Virginia Woolf"]
+    },
+    {
+        "question": "What is the main ingredient in traditional Italian pesto?",
+        "answers": ["Tomatoes", "Olives", "Mushrooms", "Garlic", "Pepper"]
+    },
+    {
+        "question": "Which element has the highest atomic number?",
+        "answers": ["Gold", "Silver", "Iron", "Uranium", "Lead"]
+    },
+    {
+        "question": "What is the largest continent by area?",
+        "answers": ["Africa", "North America", "South America", "Europe", "Australia"]
+    },
+    {
+        "question": "What is the speed of light in a vacuum?",
+        "answers": ["150,000 km/s", "200,000 km/s", "250,000 km/s", "300,000 km/s", "350,000 km/s"]
+    },
+    {
+        "question": "Who was the first person to walk on the moon?",
+        "answers": ["Buzz Aldrin", "Michael Collins", "Yuri Gagarin", "John Glenn", "Alan Shepard"]
+    },
+    {
+        "question": "Which vitamin is produced when a person is exposed to sunlight?",
+        "answers": ["Vitamin A", "Vitamin B", "Vitamin C", "Vitamin E", "Vitamin K"]
+    },
+    {
+        "question": "Which instrument is used to measure atmospheric pressure?",
+        "answers": ["Thermometer", "Anemometer", "Hygrometer", "Seismometer", "Altimeter"]
+    },
+    {
+        "question": "Which is the smallest prime number?",
+        "answers": ["1", "4", "6", "8", "9"]
+    }
+]
+}

@@ -1,0 +1,8 @@
+source "https://rubygems.org"
+
+gem "rackup"
+gem "cuba"
+gem "tilt"
+gem "sqlite3"
+gem "rack-session"
+gem "open3"

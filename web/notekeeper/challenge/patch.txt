@@ -1,0 +1,5 @@
+418,421d417
+<         unless external_addresses.empty?
+<           return external_addresses.last
+<         end
+< 

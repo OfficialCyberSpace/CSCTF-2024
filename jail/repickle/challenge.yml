@@ -1,0 +1,21 @@
+name: "repickle"
+author: "quasar098"
+category: jail
+description: |-
+  another one
+
+  `nc repickle.challs.csc.tf 1337`
+
+  **Author**: quasar098
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 100
+  minimum: 50
+flags:
+  - CSCTF{repickle_601c2ab4c856c}
+files:
+  - handout_repickle.zip
+state: visible
+version: "0.1"

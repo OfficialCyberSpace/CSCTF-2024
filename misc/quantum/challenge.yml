@@ -1,0 +1,24 @@
+name: "quantum"
+author: "nullchilly"
+category: misc
+description: |-
+  Have you heard of quantum bitset?
+
+  `nc quantum.challs.csc.tf 1337`
+
+  Note: There is a time limit of 30 seconds on the remote.
+
+  **Author**: nullchilly
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 100
+  minimum: 50
+flags:
+  - CSCTF{you_should_learn_how_to_binary_search_before_segment_tree}
+files:
+  - challenge/server.py
+  - challenge/quantum-dist.py
+state: visible
+version: "0.1"

@@ -1,0 +1,17 @@
+name: "Sanity Check"
+author: "CyberSpace"
+category: misc
+description: |-
+  Join our Discord!
+
+  https://discord.csc.tf/
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 100
+  minimum: 50
+flags:
+  - CSCTF{54n17y_5ucc355fully_ch3ck3d!}
+state: visible
+version: "0.1"

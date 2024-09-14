@@ -1,0 +1,23 @@
+name: "Quiz"
+author: "GabeG888"
+category: web
+description: |-
+  Just 25 simple questions. Can you get a perfect score?
+
+  https://quiz-web.challs.csc.tf
+
+  **Author**: GabeG888
+value: 500
+type: dynamic
+tags:
+  - web
+extra:
+  initial: 500
+  decay: 100
+  minimum: 50
+flags:
+  - CSCTF{3rr0r5_c4n_b3_0r4c135}
+files:
+  - handout_quiz.zip
+state: visible
+version: "0.1"

@@ -1,0 +1,27 @@
+name: "Share The Flag"
+author: "Cybersharing"
+category: sponsor
+description: |-  
+  You are an investigator hired by a cybersecurity company to investigate recent flag leaks. You managed to get a hold of incriminatory messages traded by one of the company employees and a possible flag re-seller. You proceeded to temporarily arrest that same employee but he is going to be released soon unless you can prove that what he shared was the real deal. If you want to prevent this, you need to find the flag as soon as possible.
+
+  ![share_the_flag_description](https://i.imgur.com/sCKoY2o.png)
+
+  **Note: This is a Challenge from our sponsor, and all premium features are out-of-scope. Please do not try to use any kind of automated tools or spam requests to solve it!**
+
+  > Hint: There are 2 important pieces of information that one can get from the discord screenshot. One is the fact that the mention of a VPN, hints to the IP History page.
+
+  > Hint 2: Think about how discord knows to display such a good looking embed and the technology used in the site.
+
+  **Author**: Cybersharing
+value: 500
+type: dynamic
+tags: 
+  - web
+extra:
+  initial: 500
+  decay: 100
+  minimum: 50
+flags:
+  - CSCTF{dd4a22b47251fd92207cc057c37728a2}
+state: visible
+version: "0.1"

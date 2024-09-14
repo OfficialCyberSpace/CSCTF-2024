@@ -1,0 +1,12 @@
+{% extends "base.html" %} {% block title %}Word Count Feature{% endblock %} {% block content %}
+<h1>Word Count Feature</h1>
+<p>Enter some text, and we'll count the words for you:</p>
+<form method="POST">
+    <textarea name="text" rows="5" cols="40" placeholder="Enter your text here"></textarea>
+    <br />
+    <button type="submit">Count Words</button>
+</form>
+{% if output %}
+<h2>Word Count:</h2>
+<pre>{{ output }}</pre>
+{% endif %} {% endblock %}

@@ -1,0 +1,17 @@
+name: "Feedback"
+author: "CyberSpace"
+category: misc
+description: |-
+  Thank you for participating in CyberSpace CTF 24! We hope you enjoyed the challenges! Please provide us with your feedback on the event in the following form.
+
+  https://forms.gle/u3YSaKFGFbmbbAWL8
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 100
+  minimum: 50
+flags:
+  - CSCTF{s33_y0u_n3xt_ye4r_1n_CSCTF_2025!}
+state: visible
+version: "0.1"

@@ -1,0 +1,22 @@
+name: "encryptor"
+author: "0xM4hm0ud"
+category: beginner
+description: |-
+  My friend sent me this app with an encoded flag, but he forgot to implement the decryption algorithm! Can you help me out?
+
+  **Author**: 0xM4hm0ud
+value: 500
+type: dynamic
+tags:
+  - rev
+  - mobile
+extra:
+  initial: 500
+  decay: 100
+  minimum: 50
+flags:
+  - CSCTF{3ncrypt0r_15nt_s4Fe_w1th_4n_h4Rdc0d3D_k3y!}
+files:
+  - encryptor.apk
+state: visible
+version: "0.1"

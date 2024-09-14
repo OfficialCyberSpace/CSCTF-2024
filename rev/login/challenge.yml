@@ -1,0 +1,21 @@
+name: "login"
+author: "0xM4hm0ud"
+category: rev
+description: |-
+  Just login!
+
+  **Author**: 0xM4hm0ud
+value: 500
+type: dynamic
+tags:
+  - mobile
+extra:
+  initial: 500
+  decay: 100
+  minimum: 50
+flags:
+  - CSCTF{SuP3r_S3cuRe_l0g1n_1234}
+files:
+  - login.apk
+state: visible
+version: "0.1"

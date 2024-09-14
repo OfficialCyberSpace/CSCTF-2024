@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <string.h>
+
+int main(){
+	char key[32];
+	int obfkey[32];
+	int check[32] = {0x43, 0xa4, 0x41, 0xae, 0x42, 0xfc, 0x73, 0xb0, 0x6f, 0x72, 0x5e, 0xa8, 0x65, 0xf2, 0x51, 0xce, 0x20, 0xbc, 0x60, 0xa4, 0x6d, 0x46, 0x21, 0x40, 0x20, 0x5a, 0x2c, 0x52, 0x2d, 0x5e, 0x2d, 0xc4};
+	int i;
+	int length;
+		
+	printf("Enter the key: ");
+	scanf("%32s", key);
+	length = (int)strlen(key);
+	if(length == 32){
+		for(i=0; i<length; i++){
+			obfkey[i] = (key[i] ^ i)*((i%2)+1);
+			if(obfkey[i] != check[i]){
+				break;
+			}
+
+			if(i == 31){
+				printf("Success!");
+			}
+		}
+
+		
+	}else{
+		printf("Denied Access");
+	}
+}

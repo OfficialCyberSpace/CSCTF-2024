@@ -1,0 +1,19 @@
+name: "Memory"
+author: "47gg"
+category: forensics
+description: |-
+  I left the image of the flag in the desktop but somehow it disappeared, can you help me recover it?
+
+  https://drive.google.com/file/d/1OqrNosho2yYFSu05sNKamQ1VeQcDzRVn/view?usp=sharing
+
+  **Author**: 47gg
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 100
+  minimum: 50
+flags:
+  - csctf{p0w3r$h3ll_$@v3d_3v3ry7h1ng_1n_3nv@r$!_Congr@tul@t10n$!}
+state: visible
+version: "0.1"

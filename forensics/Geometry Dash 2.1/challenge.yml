@@ -1,0 +1,21 @@
+name: "Geometry Dash 2.1"
+author: "quasar098"
+category: forensics
+description: |-
+  I would give you the flag but I can't let go (haha get it). use GDBrowser for the last step btw.
+
+  > Note: You do NOT need Geometry Dash purchased to solve this challenge.
+
+  **Author**: quasar098
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 100
+  minimum: 50
+flags:
+  - CSCTF{geometry_dash_d0895c120d671b}
+files:
+  - CCLocalLevels.dat
+state: visible
+version: "0.1"

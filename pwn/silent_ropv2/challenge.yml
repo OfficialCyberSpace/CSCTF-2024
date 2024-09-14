@@ -1,0 +1,21 @@
+name: "silent-rop-v2"
+author: "Bex"
+category: pwn
+description: |-
+  Created by Bex! Maybe you can remember K3RN3LCTF from 2021 now its time for silent-ROP`s_revenge
+
+  `nc silent-rop-v2.challs.csc.tf 1337`
+
+  **Author**: Bex
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 100
+  minimum: 50
+flags:
+  - CSCTF{Full_R3lR0_c4Nt_st0p_uS_Fr0m_DL_r3S0lv1nG_h9348fj3984fj439fij34i34jf93fj034ff}
+files:
+  - handout_silentropv2.zip
+state: visible
+version: "0.1"

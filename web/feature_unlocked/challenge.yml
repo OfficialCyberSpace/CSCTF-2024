@@ -1,0 +1,21 @@
+name: "Feature Unlocked"
+author: "cryptocat"
+category: web
+description: |-
+  The world's coolest app has a brand new feature! Too bad it's not released until after the CTF..
+
+  https://feature-unlocked-web.challs.csc.tf
+
+  **Author**: cryptocat
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 100
+  minimum: 50
+flags:
+  - CSCTF{d1d_y0u_71m3_7r4v3l_f0r_7h15_fl46?!}
+files:
+  - handout_feature_unlocked.zip
+state: visible
+version: "0.1"

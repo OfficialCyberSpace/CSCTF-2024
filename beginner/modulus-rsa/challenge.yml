@@ -1,0 +1,21 @@
+name: "Modulus RSA"
+author: "aa.crypto"
+category: beginner
+description: |-
+  Modulus tells you everything
+
+  **Author**: aa.crypto
+value: 500
+type: dynamic
+tags:
+  - crypto
+extra:
+  initial: 500
+  decay: 100
+  minimum: 50
+flags:
+  - CSCTF{i_l1k3_m0du1us_v3ry_MUCH!!^_^}
+files:
+  - challenge/chall.py
+state: visible
+version: "0.1"

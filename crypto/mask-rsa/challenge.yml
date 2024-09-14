@@ -1,0 +1,21 @@
+name: "Mask-RSA"
+author: "aa.crypto"
+category: crypto
+description: |-
+  Can you input your expressions to recover the primes?
+
+  `nc mask-rsa.challs.csc.tf 1337`
+
+  **Author**: aa.crypto
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 100
+  minimum: 50
+flags:
+  - CSCTF{y0u_Ar3_amazing_and_an_RSA_Expert!!!!!!!!!!!!!!!!!!!!!!}
+files:
+  - challenge/chall.py
+state: visible
+version: "0.1"

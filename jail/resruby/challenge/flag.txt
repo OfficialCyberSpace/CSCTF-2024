@@ -1,0 +1,1 @@
+CSCTF{what_was_harder?_leaking_flag_or_getting_strings}

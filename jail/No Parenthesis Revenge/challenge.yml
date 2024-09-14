@@ -1,0 +1,21 @@
+name: "No Parenthesis Revenge"
+author: "oh_word"
+category: jail
+description: |-
+  everyone knows revenge challenges are secretly just hints for the first version of the challenge
+
+  `nc no-parenthesis-revenge.challs.csc.tf 1337`
+
+  **Author**: oh_word
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 100
+  minimum: 50
+flags:
+  - CSCTF{she_libc_gadgets_on_my_goto_until_i_use_&&label_884d70525ebade450910939cb2fc0e76}
+files:
+  - handout_no_parenthesis_revenge.zip
+state: visible
+version: "0.1"

@@ -1,0 +1,22 @@
+name: "cipher block clock"
+author: "notneB"
+category: beginner
+description: |-
+  Liquid IV is a lifesaver the next morning.
+
+  **Author**: notneB
+value: 500
+type: dynamic
+tags:
+  - crypto
+extra:
+  initial: 500
+  decay: 100
+  minimum: 50
+flags:
+  - CSCTF{d0nt_m1x_up_y0ur_1v_and_k3ys}
+files:
+  - challenge/chall.py
+  - challenge/out.txt
+state: visible
+version: "0.1"

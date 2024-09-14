@@ -1,0 +1,23 @@
+name: "Trendzzz"
+author: "careless_finch"
+category: web
+description: |-
+  Notice anything off in this application? If you suspect something is wrong, report it to the superadmin. You never know what secrets might be uncovered.
+
+  `nc trendz-bot.challs.csc.tf 1337`
+
+  > Note: Use the instancer and source from part one of this challenge, Trendz.
+
+  > The bot has been sourced from [here](https://github.com/google/kctf/blob/v1/dist/challenge-templates/xss-bot/challenge/bot.js), it will visit your page, with only the `refreshtoken` cookie set.
+
+  **Author**: careless_finch
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 100
+  minimum: 50
+flags:
+  - CSCTF{759b2187-f746-49e1-90da-2b645d3cd61c}
+state: visible
+version: "0.1"

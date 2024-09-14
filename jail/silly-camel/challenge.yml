@@ -1,0 +1,21 @@
+name: "silly camel"
+author: "oh_word"
+category: jail
+description: |-
+  Oh, would you rather this be an OCaml challenge?
+
+  `nc silly-camel.challs.csc.tf 1337`
+
+  **Author**: oh_word
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 100
+  minimum: 50
+flags:
+  - CSCTF{evalbytes_abuse?_or_did_you_figure_out_something_else}
+files:
+  - handout_silly_camel.zip
+state: visible
+version: "0.1"

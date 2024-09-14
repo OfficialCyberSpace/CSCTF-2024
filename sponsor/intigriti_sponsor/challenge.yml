@@ -1,0 +1,24 @@
+name: "🅰️ 🦵 🌱"
+author: "Intigriti"
+category: sponsor
+description: |-
+  There's a bug bounty program on Intigriti I wanted to revisit. The problem is I only speak emojis these days and completely forgot the name of the program! Can you remind me?
+
+  Emojis: 🅰️ 🦵 🌱
+
+  https://go.intigriti.com/programs
+  Note: Flag format is `CSCTF{name_of_program}` 
+
+  **Author**: Intigriti
+value: 500
+type: dynamic
+tags:
+  - osint
+extra:
+  initial: 500
+  decay: 100
+  minimum: 50
+flags:
+  - CSCTF{allegro}
+state: visible
+version: "0.1"

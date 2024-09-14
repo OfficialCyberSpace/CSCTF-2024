@@ -1,0 +1,23 @@
+name: "Trendzzzz"
+author: "careless_finch"
+category: rev
+description: |-
+  There appears to be hidden functionality lurking within this application. Uncover what it does, and a reward awaits you.
+
+  > Note: Get the binary by solving part one of this challenge, Trendz.
+
+  > Due to Cloudflare restrictions, use this deployment for the **solution**: http://rev-trendzzzz.bugg.cc, get the binary from the instancer from the first part (web/Trendz).
+
+  **Author**: careless_finch, ctfguy
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 100
+  minimum: 50
+flags:
+  - CSCTF{47db65c7-7fec-429d-a065-d8b6e91bba21}
+requirements:
+  - "Trendz"
+state: visible
+version: "0.1"

@@ -1,0 +1,21 @@
+name: "key"
+author: "brosu"
+category: beginner
+description: |-
+  GDB is cool! Ghidra or IDA is helpful
+
+  **Author**: brosu
+value: 500
+type: dynamic
+tags:
+  - rev
+extra:
+  initial: 500
+  decay: 100
+  minimum: 50
+flags:
+  - CSCTF{u_g0T_it_h0OrAy6778462123}
+files:
+  - key
+state: visible
+version: "0.1"

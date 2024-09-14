@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>{% block title %}World's Coolest App{% endblock %}</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}" />
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/animations.css') }}" />
+    </head>
+    <body>
+        <nav>
+            <div class="navbar">
+                <a href="/" class="logo">
+                    <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Logo" />
+                </a>
+                <div class="nav-links">
+                    <a href="/">Home</a>
+                    <a href="/release">Release</a>
+                    <a href="/feature">Feature</a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="content">{% block content %}{% endblock %}</div>
+
+        <footer>
+            <p>&copy; 2024 World's Coolest App. All rights reserved.</p>
+        </footer>
+    </body>
+</html>

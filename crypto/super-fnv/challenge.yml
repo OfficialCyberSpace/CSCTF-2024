@@ -1,0 +1,19 @@
+name: "super-fnv"
+author: "ConnorM"
+category: crypto
+description: |-
+  Pushing the limits of LLL...
+
+  **Author**: ConnorM
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 100
+  minimum: 50
+flags:
+  - CSCTF{478845edc037270f072a5e829b1e9b34ad448950718243847c}
+files:
+  - challenge/chall.py
+state: visible
+version: "0.1"

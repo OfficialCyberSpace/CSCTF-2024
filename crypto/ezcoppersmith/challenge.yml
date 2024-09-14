@@ -1,0 +1,19 @@
+name: "ezcoppersmith"
+author: "ndr"
+category: crypto
+description: |-
+  Easy coppersmith?
+
+  **Author**: ndr
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 100
+  minimum: 50
+flags:
+  - CSCTF{c0pp3rsm1th_1s_a_m4th_g0d_n0_d0ub7}
+files:
+  - challenge/chall.py
+state: visible
+version: "0.1"

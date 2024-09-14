@@ -1,0 +1,21 @@
+name: "notekeeper"
+author: "0xM4hm0ud"
+category: web
+description: |-
+  Can you test my online notekeeper and give me some feedback?!
+
+  https://notekeeper-web.challs.csc.tf
+
+  **Author**: 0xM4hm0ud
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 100
+  minimum: 50
+flags:
+  - CSCTF{Y0u_G0t_1t_G00d_J0b}
+files:
+  - handout_notekeeper.zip
+state: visible
+version: "0.1"

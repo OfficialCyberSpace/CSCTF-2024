@@ -1,0 +1,19 @@
+name: "Trendzz"
+author: "careless_finch"
+category: web
+description: |-
+  Staying active has its rewards. There's a special gift waiting for you, but it's only available once you've made more than 12 posts. Keep posting to uncover the surprise!
+
+  > Note: Use the instancer and source from part one of this challenge, Trendz.
+
+  **Author**: careless_finch
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 100
+  minimum: 50
+flags:
+  - CSCTF{d2426fb5-a93a-4cf2-b353-eac8e0e9cf94}
+state: visible
+version: "0.1"

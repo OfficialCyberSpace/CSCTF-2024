@@ -1,0 +1,35 @@
+{{ define "login.tmpl" }}
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Login</title>
+  <link href="/static/css/bootstrap.min.css" rel="stylesheet" >
+  <link href="/static/css/style.css" rel="stylesheet" >
+</head>
+<body>
+  <main class="form-signin">
+    <form hx-post="/login" hx-ext="json-enc">
+      <h1 class="h3 mb-3 fw-normal">Please login</h1>
+
+      <div class="form-floating">
+        <input type="text" class="form-control" name="username" id="floatingInput" placeholder="John">
+        <label for="floatingInput">Username</label>
+      </div>
+      <div class="form-floating">
+        <input type="password" class="form-control" name="password" id="floatingPassword" placeholder="Password">
+        <label for="floatingPassword">Password</label>
+      </div>
+
+      <div class="register mb-3">
+          <a href="/register">Not registered yet?</a>
+      </div>
+      <button class="w-100 btn btn-lg btn-primary" type="submit">Login</button>
+      <p class="mt-5 mb-3 text-muted">&copy; 2024</p>
+    </form>
+  </main>
+</body>
+{{ template "scripts" . }}
+</html>
+{{ end }}

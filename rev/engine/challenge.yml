@@ -1,0 +1,20 @@
+name: "engine"
+author: "0xM4hm0ud"
+category: rev
+description: |-
+  Can you break my engine?
+
+  **Author**: 0xM4hm0ud
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 100
+  minimum: 50
+flags:
+  - CSCTF{y0u_br0k3_my_3ng1ne_h3re_th3_g1ft}
+files:
+  - engine
+  - encrypted.txt
+state: visible
+version: "0.1"

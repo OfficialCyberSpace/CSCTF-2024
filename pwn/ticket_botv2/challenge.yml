@@ -1,0 +1,21 @@
+name: "ticket-bot-v2"
+author: "Bex"
+category: pwn
+description: |-
+  Welcome to TicketBot v2.0. We fixed some bugs and added some extra feature!
+
+  `nc ticket-bot-v2.challs.csc.tf 1337`
+
+  **Author**: Bex
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 100
+  minimum: 50
+flags:
+  - CSCTF{4rr4ys_4nd_th3re_1nd3x3s_h4ndl3_w1th_c4r3}
+files:
+  - handout_ticketbotv2.zip
+state: visible
+version: "0.1"

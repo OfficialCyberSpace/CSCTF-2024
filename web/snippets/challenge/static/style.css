@@ -1,0 +1,41 @@
+@media (min-width: 500px) {
+	main {
+		margin-left: 10em;
+		margin-right: 10em;
+	}
+	main textarea {
+		width: 80%;
+	}
+}
+
+main {
+	background-color: rgba( 0,0,0,0.75 );
+	color-scheme: dark;
+	color: #ffd;
+	padding: 3em;
+	padding-top: 0.25em;
+	border-radius: 1em;
+}
+input, textarea {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	max-width: 100%;
+}
+textarea {
+	width: 100%;
+}
+
+body {
+	background-image: url( "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Magenta_G5_aurora_over_Tuntorp%2C_Lysekil_Municipality_11.jpg/2560px-Magenta_G5_aurora_over_Tuntorp%2C_Lysekil_Municipality_11.jpg" );
+	background-color: black;
+	background-attachment: fixed;
+}
+
+#imgcredit {
+	font-size: small;
+	margin-top: 2em;
+}
+
+#snippetDisplay {
+	border: $ffd 1px dashed
+}

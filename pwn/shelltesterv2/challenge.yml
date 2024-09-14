@@ -1,0 +1,21 @@
+name: "shelltester-v2"
+author: "0xM4hm0ud"
+category: pwn
+description: |-
+  Shellltester was an easy one. I changed the program. Can you solve this one? 
+
+  `nc shelltesterv2.challs.csc.tf 1337`
+
+  **Author**: 0xM4hm0ud
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 100
+  minimum: 50
+flags:
+  - CSCTF{4rm_pwn_1s_c00l_r1ght?}
+files:
+  - handout_shelltesterv2.zip
+state: visible
+version: "0.1"

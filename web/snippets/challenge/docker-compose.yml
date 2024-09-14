@@ -1,0 +1,8 @@
+services:
+  app:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - FLAG=${FLAG:-CSCTF{fake_flag_for_testing}}
+

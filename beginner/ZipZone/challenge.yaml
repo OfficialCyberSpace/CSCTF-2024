@@ -1,0 +1,16 @@
+apiVersion: kctf.dev/v1
+kind: Challenge
+metadata:
+  name: zipzone
+spec:
+  deployed: true
+  powDifficultySeconds: 0
+  network:
+    public: true
+    ports:
+      - protocol: "HTTPS"
+        targetPort: 1337
+        domains:
+          - "challs.csc.tf"
+  healthcheck:
+    enabled: false # TIP: disable the healthcheck during development

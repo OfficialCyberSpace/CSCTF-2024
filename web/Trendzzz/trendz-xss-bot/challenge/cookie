@@ -1,0 +1,9 @@
+{
+  "name": "refreshtoken",
+  "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3Mjk5Mzk5OTEsImlhdCI6MTcyNDg0NjU5MSwidXNlcm5hbWUiOiJzdXBlcmFkbWluIiwidXVpZCI6IjhmYjVmYmQ0LWYzMGMtNDMyZS04NWVlLWFkZDE4NGM0OThkNCJ9.MaTfECKuPBcWeZg5aEMesb85OlFKq5P82kX4qhILhV8",
+  "domain": "DOMAIN_SET_IN_DOCKERFILE",
+  "url": "https://DOMAIN_SET_IN_DOCKERFILE/",
+  "path": "/",
+  "httpOnly": true,
+  "secure": true
+}

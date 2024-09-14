@@ -1,0 +1,19 @@
+name: "3D Obj"
+author: "aa.crypto"
+category: forensics
+description: |-
+  I am sending you my secret cube. I hope you could read my secret from the little colourful squares?
+
+  **Author**: aa.crypto
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 100
+  minimum: 50
+flags:
+  - CSCTF{H1d1ng_in_T3x7ur3}
+files:
+  - handout_3d_obj.zip
+state: visible
+version: "0.1"

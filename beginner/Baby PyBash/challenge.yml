@@ -1,0 +1,23 @@
+name: "Baby Pybash"
+author: "RJCyber"
+category: beginner
+description: |-
+  I made a very secure bash terminal in Python. I don't think anyone can break in!
+
+  `nc baby-pybash.challs.csc.tf 1337`
+
+  **Author**: RJCyber
+value: 500
+tags:
+  - jail
+type: dynamic
+extra:
+  initial: 500
+  decay: 100
+  minimum: 50
+flags:
+  - CSCTF{b4sH_w1z4rd_0r_ju$t_ch33s3_m4st3r?_c1d4eeb2a}
+files:
+  - handout_baby_pybash.zip
+state: visible
+version: "0.1"

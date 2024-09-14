@@ -1,0 +1,21 @@
+name: "Stubborn Pickle Jar"
+author: "quasar098"
+category: rev
+description: |-
+  can't seem to open it; can't seem to see what's inside... fickling and pickletools won't help me either...
+
+  **Author**: quasar098
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 100
+  minimum: 50
+flags:
+  - CSCTF{if_i_am_"in_a_pickle",_i_am_in_the_pickle_jar?_1c748d29a3}
+files:
+  - challenge/chall.pkl
+  - challenge/pickle.py
+  - challenge/stubborn-pickle-jar.py
+state: visible
+version: "0.1"

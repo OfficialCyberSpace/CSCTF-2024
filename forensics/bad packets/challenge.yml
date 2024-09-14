@@ -1,0 +1,19 @@
+name: "bad packets"
+author: "notneB"
+category: forensics
+description: |-
+  Our SOC says that there seems to be some curious activities within one of our servers. They provided a pcap file but I can't find what they're talking about.
+
+  **Author**: notneB
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 100
+  minimum: 50
+flags:
+  - CSCTF{chang3_y0ur_variab13s_b3for3_d3pl0ying}
+files:
+  - chall.pcap.gz
+state: visible
+version: "0.1"

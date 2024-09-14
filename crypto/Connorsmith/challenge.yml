@@ -1,0 +1,19 @@
+name: "Connorsmith"
+author: "ConnorM"
+category: crypto
+description: |-
+  Coppersmith? Never heard of him!
+
+  **Author**: ConnorM
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 100
+  minimum: 50
+flags:
+  - CSCTF{37c37f30fc67f98f376a1c30b25b3969}
+files:
+  - challenge/chall.sage
+state: visible
+version: "0.1"

@@ -1,0 +1,21 @@
+name: "Secure Notes"
+author: "0xM4hm0ud"
+category: rev
+description: |-
+  Introducing my new app, Secure Notes! Now you can safely store your important notes. Before it hits the Google Play and App store, I need your help to beta test it, so I hid a reward for you!
+
+  **Author**: 0xM4hm0ud
+value: 500
+type: dynamic
+tags:
+  - mobile
+extra:
+  initial: 500
+  decay: 100
+  minimum: 50
+flags:
+  - CSCTF{1_w0nd3r_1f_y0u_f0r607_7h3_u53r_463n7}
+files:
+  - securenotes.apk
+state: visible
+version: "0.1"

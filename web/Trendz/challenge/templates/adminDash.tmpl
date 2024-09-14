@@ -1,0 +1,27 @@
+{{ define "adminDash.tmpl" }}
+<link rel="stylesheet" href="/static/css/admin.css">    
+
+<div class="container">
+    <h1>Welcome to the Admin Dashboard</h1>
+    <p>Here is your flag: Just Kidding</p>
+    <p>But you can still see the posts</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Post ID</th>
+                <th>User</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{ range .posts }}
+                <tr>
+                    <td>{{ .Title }}</td>
+                    <td>{{ .PostID }}</td>
+                    <td>{{ .User }}</td>
+                </tr>
+            {{ end }}
+        </tbody>
+    </table>
+</div>
+{{ end }}

@@ -1,0 +1,21 @@
+name: "Game with Rin"
+author: "Aeren"
+category: misc
+description: |-
+  Nanakura Rin, a very skilled gamer, took one of the flags. You need to defeat her 200 times to get the flag back.
+
+  `nc game-with-rin.challs.csc.tf 1337`
+
+  **Author**: Aeren
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 100
+  minimum: 50
+flags:
+  - CSCTF{I_just_wanted_to_spend_time_with_you_baka!}
+files:
+  - challenge/server.py
+state: visible
+version: "0.1"

@@ -1,0 +1,1 @@
+CSCTF{ARGF_is_pretty_funny_16affc123c161ad3ab7645d7}

@@ -1,0 +1,19 @@
+name: "Social Distancing"
+author: "RJCyber"
+category: forensics
+description: |-
+  We all remember the time of social distancing and quarantines. How about some quarantined malware? Bet you can't understand what it entails!
+
+  **Author**: RJCyber
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 100
+  minimum: 50
+flags:
+  - CSCTF{y0u_un-qu4rant1n3d_my_scr1Pt!_0x91a3edff6}
+files:
+  - handout_social-distancing.zip
+state: visible
+version: "0.1"

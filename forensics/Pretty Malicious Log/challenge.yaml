@@ -1,0 +1,11 @@
+apiVersion: kctf.dev/v1
+kind: Challenge
+metadata:
+  name: pretty-malicious-log
+spec:
+  deployed: true
+  powDifficultySeconds: 15
+  network:
+    public: true
+  healthcheck:
+    enabled: false # TIP: disable the healthcheck during development

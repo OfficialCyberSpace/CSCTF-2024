@@ -1,0 +1,20 @@
+name: "SKK?"
+author: "ctfguy"
+category: misc
+description: |-
+  What have you done to my flag?
+
+  **Author**: ctfguy
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 100
+  minimum: 50
+flags:
+  - CSCTF{why_SKK_image_encryption_sooo.weak?}
+files:
+  - challenge/chall.py
+  - challenge/enc.png
+state: visible
+version: "0.1"

@@ -1,0 +1,25 @@
+name: "Encryption and Decryption Service"
+author: "aa.crypto"
+category: pwn
+description: |-
+  pwn & crypto
+  
+  A handy encryption and decryption tool
+
+  `nc encrypt-and-decrypt.challs.csc.tf 1337`
+
+  **Author**: aa.crypto
+value: 500
+type: dynamic
+tags: 
+  - crypto
+extra:
+  initial: 500
+  decay: 100
+  minimum: 50
+flags:
+  - CSCTF{EncryP7_y0UR_p4Yl0ad}
+files:
+  - challenge/encrypt-and-decrypt
+state: visible
+version: "0.1"

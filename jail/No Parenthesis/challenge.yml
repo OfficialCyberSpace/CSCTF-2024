@@ -1,0 +1,21 @@
+name: "No Parenthesis"
+author: "oh_word"
+category: jail
+description: |-
+  No parenthesis and all warnings treated as errors? Surely you can't write unsafe code to steal my flag....
+
+  `nc no-parenthesis.challs.csc.tf 1337`
+
+  **Author**: oh_word
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 100
+  minimum: 50
+flags:
+  - CSCTF{im_sure_you_wrote_some_incredibly_normal_code}
+files:
+  - handout_no_parenthesis.zip
+state: visible
+version: "0.1"

@@ -1,0 +1,20 @@
+name: "flagprinter"
+author: "ConnorM"
+category: crypto
+description: |-
+  Instead of a challenge, here's a solution. Hope you have plenty of RAM!
+
+  **Author**: ConnorM
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 100
+  minimum: 50
+flags:
+  - CSCTF{2441d2f22fa1d5b9fc0a850dcfbbccf608cafbc22a1beaae0ac328ff6d218781}
+files:
+  - challenge/chall.py
+  - challenge/out.py
+state: visible
+version: "0.1"

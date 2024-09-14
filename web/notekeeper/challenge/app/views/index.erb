@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<style>
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	top: 200px;
+}
+
+ul.notes li {
+  margin: 10px 40px 50px 0px;
+  float: left;
+}
+
+ul.notes li, ul.tag-list li {
+  list-style: none;
+}
+
+ul.notes li div small {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 10px;
+}
+
+div.rotate-1 {
+  -webkit-transform: rotate(-6deg);
+  -o-transform: rotate(-6deg);
+  -moz-transform: rotate(-6deg);
+}
+
+div.rotate-2 {
+  -o-transform: rotate(4deg);
+  -webkit-transform: rotate(4deg);
+  -moz-transform: rotate(4deg);
+  position: relative;
+  top: 5px;
+}
+
+.red-bg {
+  background-color: #ed5565;
+  color: #ffffff;
+}
+
+ul.notes li div {
+  text-decoration: none;
+  color: #000;
+  display: block;
+  height: 210px;
+  width: 210px;
+  padding: 1em;
+  -moz-box-shadow: 5px 5px 7px #212121;
+  -webkit-box-shadow: 5px 5px 7px rgba(33, 33, 33, 0.7);
+  box-shadow: 5px 5px 7px rgba(33, 33, 33, 0.7);
+  -moz-transition: -moz-transform 0.15s linear;
+  -o-transition: -o-transform 0.15s linear;
+  -webkit-transition: -webkit-transform 0.15s linear;
+}
+	</style>
+</head>
+<body class="d-flex flex-column min-vh-100">
+  	<header class="p-3 bg-dark text-white">
+	    <div class="container">
+	      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+	        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+	          <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
+	        </a>
+
+	        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+	          <li><a href="/" class="nav-link px-2 text-secondary">Home</a></li>
+	        </ul>
+
+	        <div class="text-end">
+	          <button type="button" class="btn btn-outline-light me-2" onclick="location.href='/login'">Logout</button>
+	        </div>
+          <p style="margin:5px 0 0 20px;">Welcome <%= h(user) %></p>
+	      </div>
+	    </div>
+  	</header>
+
+	<div class="container bootstrap snippets bootdey">
+		<h1 style="text-align: center; margin-bottom: 50px; margin-top: 50px;">Add your notes!</h1>
+		<div class="note">
+			<form method="post" action="/">
+		  	<div class="form-group" style="margin-bottom: 30px; text-align: center; display: flex; flex-direction: column; gap: 20px;">
+		  		<% if error != "" %>
+		  			<div class="alert alert-danger" id="errormsg"><%=error%></div>
+		  		<% end %>
+		  		<label for="title" style="font-size: 20px;">Title</label>
+		  		<input type="text" name="title" id="title" value="" maxlength="10"/>
+		  		<label for="note" style="font-size: 20px;">Note</label>
+					<textarea name="note" id="note" rows="5" cols="10" maxlength="60"></textarea>
+					<input type="submit" class="btn btn-primary" value="Add note">
+					<label style="font-size: 30px;">Your Notes</label>
+				</div>
+			</form>
+		</div>
+	    <div class="row" style="display: flex; flex-direction: row;">
+			<ul class="notes" id="notes">
+				<% notes.each do |note| %> 
+					<li>
+							<form method="post" action="/removeNote">
+						    <div class="rotate-1 red-bg">
+						    	<input type="hidden" name="id" value="<%= h(note[0]) %>"></input>
+					        <small><%= h(note[3]) %></small>
+					        <h4><%= h(note[1]) %></h4>
+					        <p><%= h(note[2]) %></p>
+					        <button class="text-danger pull-right"><i class="fa-solid fa-trash-can" style="color: black;"></i></button>
+				    		</div>
+				    	</form>
+					</li>
+				<% end %>                        	            
+			</ul>		
+		</div>
+	</div>
+
+	<footer class="footer mt-auto py-3 bg-light">
+	  <div class="container" style="text-align: center;">
+	    <span class="text-muted">&copy; NoteKeeper 2024</span>
+	    <a href="/report" style="text-decoration: none; color: grey; margin-left: 30px;">Any problem/feedback? Report it to us!</a>
+	  </div>
+	</footer>
+</body>
+</html>

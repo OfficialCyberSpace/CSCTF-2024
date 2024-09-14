@@ -1,0 +1,21 @@
+name: "Byte Modification Service"
+author: "aa.crypto"
+category: pwn
+description: |-
+  Welcome to my Byte Modification Service, please modify the byte and leave your comments.
+
+  `nc byte-modification-service.challs.csc.tf 1337`
+
+  **Author**: aa.crypto
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 100
+  minimum: 50
+flags:
+  - CSCTF{y0u_Kn0W_fOrmA7_57r1NG_4nd_C4LL_BYTE5}
+files:
+  - challenge/chall
+state: visible
+version: "0.1"

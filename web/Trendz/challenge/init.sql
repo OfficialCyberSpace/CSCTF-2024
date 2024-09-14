@@ -1,0 +1,27 @@
+CREATE TABLE users (
+    id SERIAL PRIMARY KEY,
+    username VARCHAR(100) UNIQUE NOT NULL,
+    password VARCHAR(255) NOT NULL,
+    role VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE reports (
+	id SERIAL PRIMARY KEY,
+	username VARCHAR(100),
+	postid	VARCHAR(100)
+);
+
+CREATE TABLE posts (
+    id SERIAL PRIMARY KEY,
+    postid VARCHAR(100) UNIQUE NOT NULL,
+    username VARCHAR(100),
+    title VARCHAR(255) NOT NULL,
+    data TEXT
+);
+
+CREATE TABLE session (
+	id SERIAL PRIMARY KEY,
+	username VARCHAR(255) NOT NULL,
+	uuid VARCHAR(255) NOT NULL,
+	expiry TIMESTAMP NOT NULL
+);

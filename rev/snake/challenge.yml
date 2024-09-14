@@ -1,0 +1,19 @@
+name: "snake"
+author: "0xM4hm0ud"
+category: rev
+description: |-
+  Can you slither to the win?
+
+  **Author**: 0xM4hm0ud
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 100
+  minimum: 50
+flags:
+  - CSCTF{Y0u_b34T_My_Sl1th3r_G4m3!}
+files:
+  - snake
+state: visible
+version: "0.1"

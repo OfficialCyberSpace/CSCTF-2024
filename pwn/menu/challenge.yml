@@ -1,0 +1,21 @@
+name: "menu"
+author: "0xM4hm0ud"
+category: pwn
+description: |-
+  Order what you want!
+
+  `nc menu.challs.csc.tf 1337`
+
+  **Author**: 0xM4hm0ud
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 100
+  minimum: 50
+flags:
+  - CSCTF{th3_s3cr3t_0rd3r_348678943723879fdhg73389}
+files:
+  - handout_menu.zip
+state: visible
+version: "0.1"

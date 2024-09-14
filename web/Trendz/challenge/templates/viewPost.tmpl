@@ -1,0 +1,36 @@
+{{ define "viewPost.tmpl" }}
+{{ template "top" . }}
+<link rel="stylesheet" href="/static/css/user.css">
+
+<div class="container">
+    <div hx-ext="client-side-templates">
+        <ul>
+                <li>
+                    <div class="posts" hx-get="/user/posts/{{ .PostID }}" hx-swap="innerHTML" hx-target="#content" hx-trigger="load" nunjucks-template="foo">
+                        {{ .title }}
+                    </div>
+                </li>
+        </ul>
+        <div id="content"></div>
+       <template id="foo">
+          <div id="modal">
+              <div class="modal-underlay"></div>
+              <div class="modal-content">
+                  <div id="title">{{.title}}</div>
+                  <div id="post-data">{{.data}}</div>
+                  <button class="btn danger" hx-on:click="this.closest('#modal').remove()">Close</button>
+              </div>
+          </div>
+          <script>
+              const data = document.getElementById('post-data').innerHTML;
+          </script>
+      </template>
+    </div>
+</div>
+
+ {{ template "scripts" . }}
+ <script src="/static/js/nunjucks.min.js" ></script>
+
+{{ template "bottom" . }}
+
+{{ end }}

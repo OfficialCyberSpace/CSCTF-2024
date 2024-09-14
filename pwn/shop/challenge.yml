@@ -1,0 +1,21 @@
+name: "shop"
+author: "wan"
+category: pwn
+description: |-
+  Free orders today!!
+  
+  `nc shop.challs.csc.tf 1337`
+
+  **Author**: wan
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 100
+  minimum: 50
+flags:
+  - CSCTF{26f8aa2b094cc646137e7da9778584d1}
+files:
+  - handout_shop.zip
+state: visible
+version: "0.1"
